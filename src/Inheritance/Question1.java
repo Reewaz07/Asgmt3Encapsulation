@@ -1,7 +1,4 @@
 package Inheritance;
-
-
-
 class A{
 	void print() {
 		System.out.println("Class A(This) is parent Class");
@@ -14,9 +11,6 @@ class B extends A{
 		super.print();
 	}
 }
-	
-	
-
 public class Question1 extends B {
 	public static void main(String[] args) {
 		A obj=new A();
